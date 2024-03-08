@@ -1,0 +1,69 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .myDiv {
+      border: 5px outset red;
+      background-color: lightblue;
+      text-align: center;
+      margin-bottom: 10px;
+
+    }
+    .container {
+        text-align: center;
+        position: relative;
+        display: inline-block; /* Garante que o contêiner se ajuste ao tamanho da imagem */
+    }
+
+    .texto {
+        position: absolute;
+        top: 50%; /* Coloca o texto no meio verticalmente */
+        left: 50%; /* Coloca o texto no meio horizontalmente */
+        transform: translate(-50%, -50%); /* Centraliza o texto no meio da imagem */
+        background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo para melhorar a legibilidade */
+        padding: 10px; /* Espaçamento interno do texto */
+    }
+    .produtos{
+      border: 5px outset red;
+      background-color: lightblue;
+      margin-bottom: 10px;
+      width: auto;
+      height: auto;
+    }
+    .produto{
+      margin-bottom: 5px; /* Distancia da borda */
+      margin: 10px; /* tamanho da margem */
+      width: auto; /*Tamanho da largura da div*/
+      height: 100px;/*tamanho da altura da div*/
+      background-color: red;
+      text-align: center;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <div class="container">
+      <img src="./img/foto.jpg" alt="Imagem">
+      <div class="texto">Texto sobre a imagem</div>
+    </div>
+  </center>
+  <div class="myDiv">
+    <h2>História da mercearia</h2>
+    <p>Texto com a história da mercearia.</p>
+  </div>
+  <div class="produtos">
+    <div class="produto">
+      <div class="imgProduto">
+        <img src="" alt="imagem do produto">
+      </div>
+      <div class="descricaoPrecoProduto">
+        <h4></h4>
+      </div>
+    </div>
+    <div class="produto">
+      texto qualquer
+    </div>
+  </div>
+</body>
+</html>
